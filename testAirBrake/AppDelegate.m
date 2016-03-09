@@ -17,8 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [ABNotifier startNotifierWithAPIKey:@"e063a1e5e4aaef8b319560c1a29"
-                              projectID:@"121358"
+    [ABNotifier startNotifierWithAPIKey:@"xxxx"
+                              projectID:@"xxxxxx"
                         environmentName:ABNotifierAutomaticEnvironment
                                  useSSL:YES // only if your account supports it
                                delegate:(id)self];
