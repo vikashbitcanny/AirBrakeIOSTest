@@ -23,5 +23,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)crashBttnAction:(id)sender {
+//    @try {
+        NSMutableArray *arr=[[NSMutableArray alloc]init];
+        [arr objectAtIndex:5];
+//    }
+//    @catch (NSException *e) {
+//        [ABNotifier logException:e];
+//    }
+
+}
 
 @end

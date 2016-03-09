@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DE189201C905ED000D314F8 /* selected_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1891F1C905ED000D314F8 /* selected_button.png */; settings = {ASSET_TAGS = (); }; };
+		5DE189311C905F7D00D314F8 /* CrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE189221C905F7C00D314F8 /* CrashReporter.framework */; settings = {ASSET_TAGS = (); }; };
+		5DE189321C905F7D00D314F8 /* GCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE189251C905F7C00D314F8 /* GCAlertView.m */; settings = {ASSET_TAGS = (); }; };
+		5DE189331C905F7D00D314F8 /* ABCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE189281C905F7C00D314F8 /* ABCrashReport.m */; settings = {ASSET_TAGS = (); }; };
+		5DE189341C905F7D00D314F8 /* ABNotice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1892A1C905F7C00D314F8 /* ABNotice.m */; settings = {ASSET_TAGS = (); }; };
+		5DE189351C905F7D00D314F8 /* ABNotifier.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5DE1892B1C905F7C00D314F8 /* ABNotifier.bundle */; settings = {ASSET_TAGS = (); }; };
+		5DE189361C905F7D00D314F8 /* ABNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE1892D1C905F7C00D314F8 /* ABNotifier.m */; settings = {ASSET_TAGS = (); }; };
+		5DE189371C905F7D00D314F8 /* ABNotifierFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE189301C905F7C00D314F8 /* ABNotifierFunctions.m */; settings = {ASSET_TAGS = (); }; };
+		5DE189391C90606200D314F8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE189381C90606200D314F8 /* Security.framework */; };
+		5DE1893B1C90607400D314F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE1893A1C90607400D314F8 /* SystemConfiguration.framework */; };
 		5DE249FD1C89941E00EBD16F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE249FC1C89941E00EBD16F /* main.m */; };
 		5DE24A001C89941E00EBD16F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE249FF1C89941E00EBD16F /* AppDelegate.m */; };
 		5DE24A031C89941E00EBD16F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE24A021C89941E00EBD16F /* ViewController.m */; };
@@ -35,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DE1891F1C905ED000D314F8 /* selected_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selected_button.png; sourceTree = "<group>"; };
+		5DE189221C905F7C00D314F8 /* CrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CrashReporter.framework; sourceTree = "<group>"; };
+		5DE189241C905F7C00D314F8 /* GCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCAlertView.h; sourceTree = "<group>"; };
+		5DE189251C905F7C00D314F8 /* GCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCAlertView.m; sourceTree = "<group>"; };
+		5DE189271C905F7C00D314F8 /* ABCrashReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABCrashReport.h; sourceTree = "<group>"; };
+		5DE189281C905F7C00D314F8 /* ABCrashReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABCrashReport.m; sourceTree = "<group>"; };
+		5DE189291C905F7C00D314F8 /* ABNotice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotice.h; sourceTree = "<group>"; };
+		5DE1892A1C905F7C00D314F8 /* ABNotice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotice.m; sourceTree = "<group>"; };
+		5DE1892B1C905F7C00D314F8 /* ABNotifier.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ABNotifier.bundle; sourceTree = "<group>"; };
+		5DE1892C1C905F7C00D314F8 /* ABNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifier.h; sourceTree = "<group>"; };
+		5DE1892D1C905F7C00D314F8 /* ABNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotifier.m; sourceTree = "<group>"; };
+		5DE1892E1C905F7C00D314F8 /* ABNotifierDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifierDelegate.h; sourceTree = "<group>"; };
+		5DE1892F1C905F7C00D314F8 /* ABNotifierFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABNotifierFunctions.h; sourceTree = "<group>"; };
+		5DE189301C905F7C00D314F8 /* ABNotifierFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABNotifierFunctions.m; sourceTree = "<group>"; };
+		5DE189381C90606200D314F8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5DE1893A1C90607400D314F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		5DE249F81C89941E00EBD16F /* testAirBrake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testAirBrake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE249FC1C89941E00EBD16F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DE249FE1C89941E00EBD16F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +84,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE1893B1C90607400D314F8 /* SystemConfiguration.framework in Frameworks */,
+				5DE189391C90606200D314F8 /* Security.framework in Frameworks */,
+				5DE189311C905F7D00D314F8 /* CrashReporter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +107,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DE189211C905F7C00D314F8 /* Airbrake */ = {
+			isa = PBXGroup;
+			children = (
+				5DE189221C905F7C00D314F8 /* CrashReporter.framework */,
+				5DE189231C905F7C00D314F8 /* gcalertview */,
+				5DE189261C905F7C00D314F8 /* notifier */,
+			);
+			path = Airbrake;
+			sourceTree = "<group>";
+		};
+		5DE189231C905F7C00D314F8 /* gcalertview */ = {
+			isa = PBXGroup;
+			children = (
+				5DE189241C905F7C00D314F8 /* GCAlertView.h */,
+				5DE189251C905F7C00D314F8 /* GCAlertView.m */,
+			);
+			path = gcalertview;
+			sourceTree = "<group>";
+		};
+		5DE189261C905F7C00D314F8 /* notifier */ = {
+			isa = PBXGroup;
+			children = (
+				5DE189271C905F7C00D314F8 /* ABCrashReport.h */,
+				5DE189281C905F7C00D314F8 /* ABCrashReport.m */,
+				5DE189291C905F7C00D314F8 /* ABNotice.h */,
+				5DE1892A1C905F7C00D314F8 /* ABNotice.m */,
+				5DE1892B1C905F7C00D314F8 /* ABNotifier.bundle */,
+				5DE1892C1C905F7C00D314F8 /* ABNotifier.h */,
+				5DE1892D1C905F7C00D314F8 /* ABNotifier.m */,
+				5DE1892E1C905F7C00D314F8 /* ABNotifierDelegate.h */,
+				5DE1892F1C905F7C00D314F8 /* ABNotifierFunctions.h */,
+				5DE189301C905F7C00D314F8 /* ABNotifierFunctions.m */,
+			);
+			path = notifier;
+			sourceTree = "<group>";
+		};
 		5DE249EF1C89941E00EBD16F = {
 			isa = PBXGroup;
 			children = (
+				5DE1893A1C90607400D314F8 /* SystemConfiguration.framework */,
+				5DE189381C90606200D314F8 /* Security.framework */,
 				5DE249FA1C89941E00EBD16F /* testAirBrake */,
 				5DE24A141C89941E00EBD16F /* testAirBrakeTests */,
 				5DE24A1F1C89941E00EBD16F /* testAirBrakeUITests */,
@@ -101,6 +168,8 @@
 		5DE249FA1C89941E00EBD16F /* testAirBrake */ = {
 			isa = PBXGroup;
 			children = (
+				5DE189211C905F7C00D314F8 /* Airbrake */,
+				5DE1891F1C905ED000D314F8 /* selected_button.png */,
 				5DE249FE1C89941E00EBD16F /* AppDelegate.h */,
 				5DE249FF1C89941E00EBD16F /* AppDelegate.m */,
 				5DE24A011C89941E00EBD16F /* ViewController.h */,
@@ -207,6 +276,7 @@
 				TargetAttributes = {
 					5DE249F71C89941E00EBD16F = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J626X6WL96;
 					};
 					5DE24A101C89941E00EBD16F = {
 						CreatedOnToolsVersion = 7.0;
@@ -244,7 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE24A0B1C89941E00EBD16F /* LaunchScreen.storyboard in Resources */,
+				5DE189351C905F7D00D314F8 /* ABNotifier.bundle in Resources */,
 				5DE24A081C89941E00EBD16F /* Assets.xcassets in Resources */,
+				5DE189201C905ED000D314F8 /* selected_button.png in Resources */,
 				5DE24A061C89941E00EBD16F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +343,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE24A031C89941E00EBD16F /* ViewController.m in Sources */,
+				5DE189321C905F7D00D314F8 /* GCAlertView.m in Sources */,
+				5DE189341C905F7D00D314F8 /* ABNotice.m in Sources */,
+				5DE189331C905F7D00D314F8 /* ABCrashReport.m in Sources */,
+				5DE189371C905F7D00D314F8 /* ABNotifierFunctions.m in Sources */,
+				5DE189361C905F7D00D314F8 /* ABNotifier.m in Sources */,
 				5DE24A001C89941E00EBD16F /* AppDelegate.m in Sources */,
 				5DE249FD1C89941E00EBD16F /* main.m in Sources */,
 			);
@@ -344,9 +421,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Luv Mehta (64B7EAKYXR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Luv Mehta (J626X6WL96)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,6 +445,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f8f4d3e2-a401-4a0e-8278-b58d9483c6ef";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,9 +468,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Luv Mehta (64B7EAKYXR)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Luv Mehta (J626X6WL96)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -403,6 +485,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f8f4d3e2-a401-4a0e-8278-b58d9483c6ef";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -413,10 +496,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testAirBrake/Airbrake",
+				);
 				INFOPLIST_FILE = testAirBrake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bit.testAirBrake.testAirBrake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bit.smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8f4d3e2-a401-4a0e-8278-b58d9483c6ef";
 			};
 			name = Debug;
 		};
@@ -424,10 +514,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testAirBrake/Airbrake",
+				);
 				INFOPLIST_FILE = testAirBrake/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bit.testAirBrake.testAirBrake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bit.smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f8f4d3e2-a401-4a0e-8278-b58d9483c6ef";
 			};
 			name = Release;
 		};
@@ -498,6 +595,7 @@
 				5DE24A271C89941E00EBD16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE24A281C89941E00EBD16F /* Build configuration list for PBXNativeTarget "testAirBrakeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +604,7 @@
 				5DE24A2A1C89941E00EBD16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DE24A2B1C89941E00EBD16F /* Build configuration list for PBXNativeTarget "testAirBrakeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +613,7 @@
 				5DE24A2D1C89941E00EBD16F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
